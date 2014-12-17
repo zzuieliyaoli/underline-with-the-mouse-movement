@@ -4,6 +4,7 @@
 }
 
 body{
+	min-width: 900px;
 	height: 100%;
 	width: 100%;
 }
@@ -16,8 +17,8 @@ div#wrapper{
 
 
 nav{
-	padding-left: 20%;
-	padding-right: 20%;
+	padding-left: 100px;
+	padding-right: 100px;
 }
 ul{
 	text-align: center;
