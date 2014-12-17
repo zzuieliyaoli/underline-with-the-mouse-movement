@@ -1,0 +1,66 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	height: 100%;
+	width: 100%;
+}
+
+div#wrapper{
+	height: 100%;
+	width: 100%;
+	padding-top: 20%;
+}
+
+
+nav{
+	padding-left: 20%;
+	padding-right: 20%;
+}
+ul{
+	text-align: center;
+}
+
+ul li{
+	display: inline-block;
+	float: left;
+}
+
+ul li a{
+	font-size: 1.2em;
+	text-decoration: none;
+	padding-left: 2em;
+	padding-right: 2em;
+
+}
+
+span.move{
+	transition: left 0.3s ;
+}
+div.line{
+	display:  block;
+	position: relative;
+	
+	height: 2px;
+	font-size: 0em;
+	background-color: #eee;
+
+}
+
+div.line span.move{
+	position: absolute;
+
+	display: inline-block;
+	height: 2px;
+	width: 154px;
+	background-color: black;
+}
+.clearfix:after{
+	content:"";
+	height: 0em;
+	width: 0em;
+	clear: both;
+	display: block;
+}
