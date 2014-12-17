@@ -30,10 +30,13 @@ ul li{
 }
 
 ul li a{
+	display: block;
+	
+	padding-left: 1em;
+	padding-right: 1em;
+
 	font-size: 1.2em;
 	text-decoration: none;
-	padding-left: 2em;
-	padding-right: 2em;
 
 }
 
@@ -55,7 +58,7 @@ div.line span.move{
 
 	display: inline-block;
 	height: 2px;
-	width: 154px;
+	/*width: 154px;*/
 	background-color: black;
 }
 .clearfix:after{
